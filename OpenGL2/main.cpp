@@ -103,6 +103,7 @@ int main()
 		glfwSwapBuffers(windowLive);
 		glfwSetInputMode(windowLive, GLFW_STICKY_KEYS, GL_TRUE);
 
+
 		if (glfwGetKey(windowLive, GLFW_KEY_RIGHT) == GLFW_PRESS) xRot += 0.001f;
 		if (glfwGetKey(windowLive, GLFW_KEY_UP) == GLFW_PRESS) yRot += 0.001f;
 		if (glfwGetKey(windowLive, GLFW_KEY_LEFT) == GLFW_PRESS) xRot -= 0.001f;
